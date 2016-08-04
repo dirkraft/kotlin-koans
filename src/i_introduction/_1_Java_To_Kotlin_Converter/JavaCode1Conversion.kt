@@ -13,5 +13,5 @@ fun todoTask1(collection: Collection<Int>): Nothing = TODO(
 
 
 fun task1(collection: Collection<Int>): String {
-    return JavaCodeConversion().task1(collection)
+    return JavaCode1Conversion().task1(collection)
 }
