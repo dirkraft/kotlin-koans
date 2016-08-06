@@ -15,7 +15,12 @@ fun todoTask25(): Nothing = TODO(
 )
 
 fun task25(date1: MyDate, date2: MyDate): Boolean {
-    todoTask25()
-//    return date1 < date2
+    return date1 < date2
 }
 
+operator fun MyDate.compareTo(other: MyDate): Int = when {
+    year != other.year -> year.compareTo(other.year)
+    month != other.month -> month.compareTo(other.month)
+    dayOfMonth != other.dayOfMonth -> dayOfMonth.compareTo(other.dayOfMonth)
+    else -> 0 // They are equal
+}
