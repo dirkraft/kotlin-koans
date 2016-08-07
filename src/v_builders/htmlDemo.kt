@@ -1,6 +1,5 @@
-package v_builders.demo
+package v_builders
 
-import v_builders.renderProductTable
 import javax.swing.JFrame
 import javax.swing.JLabel
 import javax.swing.JScrollPane

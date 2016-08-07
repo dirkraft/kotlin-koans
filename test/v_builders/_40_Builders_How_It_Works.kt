@@ -4,7 +4,6 @@ import org.junit.Assert.fail
 import org.junit.Test
 import util.questions.Answer.b
 import util.questions.Answer.c
-import v_builders.builders.task40
 
 class _40_Builders_How_It_Works {
     @Test fun testBuildersQuiz() {
